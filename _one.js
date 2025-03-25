@@ -676,18 +676,18 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
                             margin-bottom: 30px;
                             padding: 25px;
                             background: rgba(255, 255, 255, 0.1);
-                            color: rgb(16, 14, 16);
+                            color: rgb(0, 0, 0);
                             border-radius: 16px;
                             backdrop-filter: blur(10px);
                             -webkit-backdrop-filter: blur(10px);
                             border: 1px solid rgba(255, 255, 255, 0.2);
                             box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
-                            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+                            text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
                         }
                         @media (prefers-color-scheme: dark) {
                             .header {
-                                color: #ffffff;
-                                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+                                color:rgb(63, 49, 155);
+                                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
                             }
                         }
                         .subscription-grid {
@@ -708,7 +708,7 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
                             .header h1 { font-size: 1.5em; }
                         }
                         .subscription-card {
-                            background: rgba(255, 255, 255, 0.9);
+                            background: transparent;
                             border-radius: 12px;
                             padding: 20px;
                             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -722,15 +722,15 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
                         }
                         .subscription-title {
                             font-size: 1.2em;
-                            color: rgba(255, 255, 255, 0.9);
+                            color: #000000;
                             margin-bottom: 15px;
                             font-weight: 600;
-                            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+                            text-shadow: 0 0 10px rgb(83, 194, 76);
                         }
                         @media (prefers-color-scheme: dark) {
                             .subscription-title {
-                                color: #ffffff;
-                                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+                                color:rgb(63, 49, 155);
+                                text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
                             }
                         }
                         .subscription-link {
